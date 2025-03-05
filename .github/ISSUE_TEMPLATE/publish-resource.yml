@@ -27,7 +27,7 @@ body:
         premium: false
         tags: []
         time: 1683711967
-    render: yml
+      render: yml
     validations:
       required: true
   - type: markdown
