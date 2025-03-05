@@ -11,66 +11,24 @@ body:
           required: true
         - label: "My resource doesn't contain the ItemsAdder JAR or any default ItemsAdder asset"
           required: true
-  - type: checkboxes
-    id: various_booleans
-    attributes:
-      label: Attributes
-      options:
-        - label: "Is Paid"
-          required: true
-  - type: input
-    id: author
-    attributes:
-      label: Author
-      description: Author
-      placeholder: ex. LoneDev
-    validations:
-      required: true
-  - type: input
-    id: title
-    attributes:
-      label: Title
-      description: Title
-      placeholder: ex. My Custom Resource
-    validations:
-      required: true
-  - type: input
-    id: description
-    attributes:
-      label: Description
-      description: Description
-      placeholder: ex. My custom resource is a cool resource
-    validations:
-      required: true
-  - type: input
-    id: market_url
-    attributes:
-      label: Main Market URL
-      description: Where to download the resource
-      placeholder: ex. https://www.spigotmc.org/resources/73355/
-    validations:
-      required: true
-  - type: input
-    id: market_url2
-    attributes:
-      label: Market URL 2
-      description: Where to download the resource
-      placeholder: ex. https://www.spigotmc.org/resources/73355/
-    validations:
-      required: false
-  - type: input
-    id: market_url3
-    attributes:
-      label: Market URL 3
-      description: Where to download the resource
-      placeholder: ex. https://www.spigotmc.org/resources/73355/
-    validations:
-      required: false
   - type: textarea
     id: assets
     attributes:
       label: Icon and Banner files (you can drag and drop files or paste links)
       description: "(you can drag and drop files or paste links)"
+    value: |
+author: author
+title: YourTitleHere
+content: YourDescriptionHere
+icon: imgurl url here (ends with .png)
+banner: imgurl url here (ends with .png)
+links:
+- https://builtbybit.com/resources/xxxxxx
+premium: false
+tags: []
+time: 1683711967
+      ...
+    render: yml
     validations:
       required: true
   - type: markdown
