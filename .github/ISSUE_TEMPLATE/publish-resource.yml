@@ -27,7 +27,6 @@ body:
         links:
           - https://spigotmc.org/resources/xxxxxx
           - https://builtbybit.com/resources/xxxxxx
-        time: 1683711967
     validations:
       required: true
   - type: markdown
