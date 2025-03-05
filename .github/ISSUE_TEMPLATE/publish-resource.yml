@@ -14,20 +14,20 @@ body:
   - type: textarea
     id: assets
     attributes:
-      label: Resource information file
-      description: "Make sure to completely fill the file"
+      label: Resource information file (YML)
+      description: "Make sure to completely fill the file with a valid YML"
+      render: yml
       value: |
         author: author
         title: YourTitleHere
         content: YourDescriptionHere
-        icon: imgurl url here (ends with .png)
-        banner: imgurl url here (ends with .png)
-        links:
-          - https://builtbybit.com/resources/xxxxxx
         premium: false
-        tags: []
+        icon: imgurlUrlHere
+        banner: imgurlUrlHere
+        links:
+          - https://spigotmc.org/resources/xxxxxx
+          - https://builtbybit.com/resources/xxxxxx
         time: 1683711967
-      render: yml
     validations:
       required: true
   - type: markdown
