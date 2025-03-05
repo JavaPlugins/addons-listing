@@ -14,9 +14,10 @@ body:
   - type: textarea
     id: assets
     attributes:
-      label: Icon and Banner files (you can drag and drop files or paste links)
-      description: "(you can drag and drop files or paste links)"
+      label: Resource information file
+      description: "Make sure to completely fill the file"
     value: |
+```yml
 author: author
 title: YourTitleHere
 content: YourDescriptionHere
@@ -27,7 +28,7 @@ links:
 premium: false
 tags: []
 time: 1683711967
-      ...
+```
     render: yml
     validations:
       required: true
