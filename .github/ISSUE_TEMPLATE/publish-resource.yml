@@ -7,7 +7,7 @@ body:
     attributes:
       label: Terms
       options:
-        - label: "My resource is not using any paid assed that I have no ownership of"
+        - label: "My resource is not using any assets that I have no ownership of"
           required: true
         - label: "My resource doesn't contain the ItemsAdder JAR or any default ItemsAdder asset"
           required: true
