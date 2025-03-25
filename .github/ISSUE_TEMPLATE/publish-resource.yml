@@ -24,9 +24,13 @@ body:
         premium: false
         icon: imgurlUrlHere
         banner: imgurlUrlHere
+        time: 2025-01-01
         links:
-          - https://spigotmc.org/resources/xxxxxx
-          - https://builtbybit.com/resources/xxxxxx
+        - https://spigotmc.org/resources/xxxxxx
+        - https://builtbybit.com/resources/xxxxxx
+        tags:
+        - items
+        - blocks
     validations:
       required: true
   - type: markdown
